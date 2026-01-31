@@ -1,4 +1,4 @@
-header
+ header
 {
   background: #020617;
   padding: 20px;
@@ -6,4 +6,9 @@ header
 }
 header h1 {
   color: #38bdf8;
+}
+#hero {
+  background: #1e293b;
+  padding: 80px;
+  text-align: center;
 }
