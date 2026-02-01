@@ -75,4 +75,64 @@ nav a:hover {
   max-width: 700px;
 }
 
+#about {
+  background: #020617;
+  padding: 60px 20px;
+}
+
+#about h2 {
+  color: #38bdf8;
+  border-left: 4px solid #38bdf8;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  max-width: 700px;
+}
+
+#video {
+  background: #020617;
+  padding: 60px 20px;
+}
+
+#video h2 {
+  color: #38bdf8;
+  border-left: 4px solid #38bdf8;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+.video-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.video-card {
+  background: #1e293b;
+  padding: 30px;
+  flex: 1;
+  min-width: 220px;
+  text-align: center;
+  border-radius: 8px;
+  color: #e5e7eb;
+  transition: 0.3s;
+}
+
+.video-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(56,189,248,0.2);
+}
+
+footer {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+}
+
+footer p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
  
