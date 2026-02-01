@@ -52,6 +52,20 @@ nav a:hover {
 .menu-toggle {
   display: none; /* desktop */
 }
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
 
 
 #hero {
