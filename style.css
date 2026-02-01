@@ -1,40 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* ===== NAVBAR ===== */
 
-body {
-  font-family: Arial, sans-serif;
-  background: #020617;
-  color: #e5e7eb;
-}
-
-header {
-  background: #020617;
-  padding: 20px;
-  text-align: center;
-}
-
-header h1 {
-  color: #38bdf8;
-}
-
-nav {
-  background: #020617;
-  text-align: center;
-  padding: 10px;
-}
-
-nav a {
-  color: #e5e7eb;
-  margin: 0 12px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-nav a:hover {
-  color: #38bdf8;
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .main-nav {
@@ -44,95 +11,52 @@ nav a:hover {
   padding: 16px 40px;
 }
 
+.logo a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .nav-links {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
 
-.menu-toggle {
-  display: none; /* desktop */
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
 }
 
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #e5e7eb;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+  }
 
   .nav-links.active {
     display: flex;
   }
 }
-
-.site-header {
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-  
-.hero {
-  padding: 100px 20px;
-  text-align: center;
-}
-
-
-#hero {
-  background: #1e293b;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-#hero h2 {
-  color: #38bdf8;
-  font-size: 32px;
-  margin-bottom: 10px;
-}
-
-#hero p {
-  color: #cbd5f5;
-}
-
-
-.highlight {
- color: #38bdf8;
- font-weight: bold;
-}
-
-#about {
-  background: #020617;
-  padding: 60px 20px;
-}
-
-#about h2 {
-  color: #38bdf8;
-  border-left: 4px solid #38bdf8;
-  padding-left: 10px;
-  margin-bottom: 10px;
-}
-
-#about p {
-  max-width: 700px;
-}
-
-#videos {
-  background: #020617;
-  padding: 60px 20px;
-}
-
-#videos h2 {
-  color: #38bdf8;
-  border-left: 4px solid #38bdf8;
-  padding-left: 10px;
-  margin-bottom: 30px;
-}
-
-footer {
-  background: #020617;
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #1e293b;
-}
-
-footer p {
-  color: #94a3b8;
-  font-size: 14px;
-}
-
- 
