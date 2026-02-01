@@ -1,5 +1,16 @@
-/* ===== NAVBAR ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* ===== HEADER / NAV ===== */
 .site-header {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
@@ -27,7 +38,6 @@
 .nav-links a {
   color: #e5e7eb;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .nav-links a:hover {
@@ -43,6 +53,37 @@
   cursor: pointer;
 }
 
+/* ===== HERO ===== */
+#hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+#hero h2 {
+  color: #38bdf8;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  color: #cbd5f5;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 60px 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  border-top: 1px solid #1e293b;
+  padding: 40px;
+  text-align: center;
+  color: #94a3b8;
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .menu-toggle {
@@ -52,7 +93,6 @@
   .nav-links {
     display: none;
     flex-direction: column;
-    gap: 16px;
     margin-top: 20px;
   }
 
