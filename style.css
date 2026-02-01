@@ -75,23 +75,8 @@ nav a:hover {
   max-width: 700px;
 }
 
-#about {
-  background: #020617;
-  padding: 60px 20px;
-}
 
-#about h2 {
-  color: #38bdf8;
-  border-left: 4px solid #38bdf8;
-  padding-left: 10px;
-  margin-bottom: 10px;
-}
-
-#about p {
-  max-width: 700px;
-}
-
-#video {
+video {
   background: #020617;
   padding: 60px 20px;
 }
