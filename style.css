@@ -67,6 +67,15 @@ nav a:hover {
   }
 }
 
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
 
 #hero {
   background: #1e293b;
