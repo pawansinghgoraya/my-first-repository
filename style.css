@@ -37,6 +37,23 @@ nav a:hover {
   color: #38bdf8;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-toggle {
+  display: none; /* desktop */
+}
+
+
 #hero {
   background: #1e293b;
   padding: 80px 20px;
