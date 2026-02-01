@@ -52,15 +52,7 @@ nav a:hover {
 .menu-toggle {
   display: none; /* desktop */
 }
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-  }
 
   .nav-links.active {
     display: flex;
@@ -70,7 +62,11 @@ nav a:hover {
 .site-header {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
-
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+  
 .hero {
   padding: 100px 20px;
   text-align: center;
