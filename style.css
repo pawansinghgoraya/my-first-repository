@@ -17,11 +17,9 @@ header h1 {
  font-weight: bold;
 }
 #about {
- backgroud: #020617;
- padding: 60px 10px;
+  background: #020617;
 }
 #about h2 {
- border-left: 4px solid #38bdf8;
- padding-left: 10px;
+  border-left: 4px solid #38bdf8;
 }
  
