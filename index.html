@@ -24,15 +24,16 @@
     
     <!-- 2️⃣ Logo -->
     <div class="logo">
-      <a href="index.html">Pawan's Lab</a>
+      <a href="index.html"><h1>Pawan's Lab</h1></a>
     </div>
 
     <!-- 3️⃣ Navigation Links -->
     <ul class="nav-links">
       <li><a href="index.html" aria-current="page">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a>
-        <ul class="dropdown">
+      <li class="has-dropdown">
+  <a href="services.html" aria-haspopup="true" aria-expanded="false">Services</a>
+  <ul class="dropdown">
           <li><a href="#">Web Design</a></li>
           <li><a href="#">HTML</a></li>
           <li><a href="#">CSS</a></li>
@@ -53,7 +54,9 @@
 
 <main>
 
+
   <section id="hero">
+    <a href="#hero" class="skip-link">Skip to content</a>
     <h2>Learn Web, AI & Tech with Pawan</h2>
     <p>YouTube tutorials, projects & real coding.</p>
   </section>
@@ -82,7 +85,8 @@
       <p>Learn Web, AI & Tech with practical projects.</p>
     </section>
 
-    <nav class="footer-nav">
+    <nav class="footer-nav" aria-label="Footer Navigation">
+
       <h4>Quick Links</h4>
       <ul>
         <li><a href="#">About Us</a></li>
@@ -119,6 +123,7 @@
 <script src="nav.js"></script>
 </body>
 </html>
+
 
 
 
