@@ -69,7 +69,8 @@ body {
 #hero p {
   color: #cbd5f5;
 }
-
+.card {
+  border-radius: 12px;
 /* ===== SECTIONS ===== */
 section {
   padding: 60px 40px;
